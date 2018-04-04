@@ -31,7 +31,7 @@ For this project, I used:
 
 The 30N06LE MOSFET is definitely overkill for this project, as it has a maximum rating of 60V. Any comparable N-channel MOSFET with a voltage rating greater than 12V and current output of at least 1A will work.
 
-Included in this repository also are the STL files for the fan case for 3D printing. 
+Included in this repository also are the STL files for the fan case for 3D printing, as well as the OpenSCAD source for modification. 
 
 ### Compatibility
 
