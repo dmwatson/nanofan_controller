@@ -39,6 +39,6 @@ The code, as is, will work with an Arduino Nano, Uno, or even a barebones ATMega
 
 ### Models
 
-Included in the repository are the STL files for a case I designed and 3D printed. It's a snap fit design so you can open it back up more easily and access the hardware. You can print it yourself also or give a go at the OpenSCAD source file to modify it.
+Included in the repository are the STL files for a case designed to be 3D printed. It's a snap fit design so you can open it back up more easily and access the hardware. You can print it yourself also or give a go at the OpenSCAD source file to modify it.
 
 The lid is recessed to hold the fan on top and will accommodate a 120mm fan with grilles. I used [this model](https://www.thingiverse.com/thing:263573) for my fan grilles. 
