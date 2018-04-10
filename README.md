@@ -39,7 +39,7 @@ Included in this repository also are the STL files for the fan case for 3D print
 
 The pins used on the Nano for this project are:
 
-* D10 (PB2): MOSFET gate -- Used for PWM. Used in lieu of D3, D5, and D6 because Timer1 is not attached to millis()
+* D10 (PB2): MOSFET gate -- Used for PWM. Used in lieu of D3, D5, and D6 because Timer1 does not affect millis()
 * D2 (PD2): Arcade button -- Pin change interrupt pin
 * D4 (PD4): Green LED
 * D5 (PD5): Yellow LED
