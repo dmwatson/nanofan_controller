@@ -26,16 +26,28 @@ For this project, I used:
 * (1x) 30mm Arcade Button
 * (1x) 5mm Green LED
 * (1x) 5mm Yellow LED
-* (1x) Red LED
+* (1x) 5mm Red LED
 * (1x) 120mm 12V fan
 
 The 30N06LE MOSFET is definitely overkill for this project, as it has a maximum rating of 60V. Any comparable N-channel MOSFET with a voltage rating greater than 12V and current output of at least 1A will work.
 
+Note that you don't have to use green, yellow, and red LEDs. You can use any combination of colors. I picked these to be able to easily denote what speed the fan is at, even in the dark.
+
 Included in this repository also are the STL files for the fan case for 3D printing, as well as the OpenSCAD source for modification. 
+
+### Pins
+
+The pins used on the Nano for this project are:
+
+* D10 (PB2): MOSFET gate -- Used for PWM. Used in lieu of D3, D5, and D6 because Timer1 is not attached to millis()
+* D2 (PD2): Arcade button -- Pin change interrupt pin
+* D4 (PD4): Green LED
+* D5 (PD5): Yellow LED
+* D6 (PD6): Red LED
 
 ### Compatibility
 
-The code, as is, will work with an Arduino Nano, Uno, or even a barebones ATMega328P. With some understanding of the code, it could easily be ported to work with other microcontrollers in the Arduino family. 
+The code will work with an Arduino Nano, Uno, or even a barebones ATMega328P. With some understanding of the code, it could easily be ported to work with other microcontrollers in the Arduino family. 
 
 ### Models
 
