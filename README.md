@@ -20,7 +20,7 @@ All source code, models, CAD files, etc., for this project are released under th
 
 For this project, I used:
 
-* (1x) Arduino Uno
+* (1x) Arduino Nano
 * (1x) LM7805 Voltage Regulator
 * (1x) 30N06LE N-channel MOSFET*
 * (1x) 30mm Arcade Button
